@@ -43,6 +43,9 @@
             <li class="nav-item">
               <a class="nav-link" :class="{ active: activeSection === 'education' }" href="#education" @click="smoothScroll('education')">Formation</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" :class="{ active: activeSection === 'temoignages' }" href="#temoignages" @click="smoothScroll('temoignages')">Témoignages</a>
+            </li>
           </ul>
 
           <!-- Bouton Contact -->

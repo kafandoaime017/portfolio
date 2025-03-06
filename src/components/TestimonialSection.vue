@@ -1,5 +1,5 @@
 <template>
-    <section class="testimonial-section" id="testimonials">
+    <section class="testimonial-section" id="temoignages">
         <div class="container">
             <h2 class="section-title text-center" data-aos="fade-down">
                 <span style="color:red">T</span>émoignages
