@@ -75,7 +75,7 @@ const smoothScroll = (id) => {
 
 // Fonction pour détecter la section visible
 const handleScroll = () => {
-  const sections = ['home', 'about', 'experiences', 'skills', 'education', 'projects', 'contact'];
+  const sections = ['home', 'about', 'experiences', 'skills', 'education', 'projects', 'contact','temoignages'];
   for (const section of sections) {
     const element = document.getElementById(section);
     if (element) {
