@@ -20,6 +20,9 @@
     <section id="education">
         <EducationSection/>
     </section>
+    <section id="temoignages">
+        <TestimonialSection/>
+    </section>
     <section id="contact">
         <ContactSection/>
     </section>
@@ -39,6 +42,7 @@
     import EducationSection from '@/components/EducationSection.vue'
     import ContactSection from '@/components/ContactSection.vue'
     import FooterSection from '@/components/FooterSection.vue'
+    import TestimonialSection from '@/components/TestimonialSection.vue'
 
     // Définir les métadonnées de la page pour améliorer le SEO
     useHead({
